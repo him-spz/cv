@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+}
+.page-heading{
+    color: #c7423f;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.design{
+    background-color: #c7423f;
+}
+.heading{
+    text-align: center;
+    margin: 1.5rem 0rem 1.5rem;
+}
+
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li a{
+    margin: 0 1.02em;
+    padding: 0.618em 0;
+    
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro{
+    width: 50%;
+    /* padding-right: 5%; */
+}
+.dp{
+    width: 25%;
+    padding-left: 50px;
+}
+.dp img{
+    width: 390px;
+    height: 500px;
+}
+
+
+/* about */
+.skill{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill img{
+    height: 300px;
+    width: 300px;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.left-card{
+    display: flex;
+    flex-direction: row;
+  
+}
+.left-card img{
+    padding: 15px 20px 15px 0px;
+}
+.right-card{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.right-card img{
+    padding: 15px 0px 15px 20px;
+}
+.card-content{
+    width: 55%;
+    background-color: #d6b9b8;
+    margin: 15px 0;
+}
+
+/* Achievement */
+.achievement{
+    display: flex;
+    justify-content: center;
+}
+.achievement img{
+    height: 400px;
+    width: 400px;
+    margin-left: 10%;
+}
+.achievement-content{
+    margin: auto;
+    width: 50%; 
+}
+.achievement li{
+    list-style: square;
+}
+
+.footer{
+    background-color: #d6b9b8;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social i{
+    margin: 10px;
+}
+.copyright{
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+
+/* contact  */
+#contact{
+    display: flex;
+    justify-content: center;
+}
+#contact h1{
+    font-size:2rem;
+    margin: auto;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 4%;
+    margin: 1%;
+    border: 3px solid grey;
+    border-radius: 100px;
+}
+.contact-card{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size:2rem;
+    margin: 15px;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 80%;
+    /* background-color: rgb(211, 144, 144); */
+    padding: 5px;
+    font-size: 1rem;
+    margin: 15px;
+}
+  
+.no-outline:focus {
+    outline: none;
+}
+
+
+.btn {
+    background: #d6b9b8;
+    background-image: -webkit-linear-gradient(top, #d6b9b8, #c7423f);
+    background-image: -moz-linear-gradient(top, #d6b9b8, #c7423f);
+    background-image: -ms-linear-gradient(top, #d6b9b8, #c7423f);
+    background-image: -o-linear-gradient(top, #d6b9b8, #c7423f);
+    background-image: linear-gradient(to bottom, #d6b9b8, #c7423f);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 25px 20px 0px ;
+  }
+  
+  .btn:hover {
+    background: #b87b79;
+    background-image: -webkit-linear-gradient(top, #b87b79, #c7423f);
+    background-image: -moz-linear-gradient(top, #b87b79, #c7423f);
+    background-image: -ms-linear-gradient(top, #b87b79, #c7423f);
+    background-image: -o-linear-gradient(top, #b87b79, #c7423f);
+    background-image: linear-gradient(to bottom, #b87b79, #c7423f);
+    text-decoration: none;
+    cursor: pointer;
+  }
